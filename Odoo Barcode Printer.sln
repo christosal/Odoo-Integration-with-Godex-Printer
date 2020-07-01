@@ -5,16 +5,20 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odoo Barcode Printer", "Odoo Barcode Printer\Odoo Barcode Printer.csproj", "{20D831C9-E2CC-4DB4-864D-5AF3D1023D4F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{FAB517B0-4B03-40B9-B454-3C95049A6AB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{20D831C9-E2CC-4DB4-864D-5AF3D1023D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20D831C9-E2CC-4DB4-864D-5AF3D1023D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D831C9-E2CC-4DB4-864D-5AF3D1023D4F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{20D831C9-E2CC-4DB4-864D-5AF3D1023D4F}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{20D831C9-E2CC-4DB4-864D-5AF3D1023D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20D831C9-E2CC-4DB4-864D-5AF3D1023D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB517B0-4B03-40B9-B454-3C95049A6AB2}.Debug|Any CPU.ActiveCfg = Release
+		{FAB517B0-4B03-40B9-B454-3C95049A6AB2}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

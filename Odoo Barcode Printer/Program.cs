@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Npgsql;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,7 +18,14 @@ namespace Odoo_Barcode_Printer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Console.WriteLine("hi");
             Application.Run(new Form1());
         }
+
+
+        
     }
-}
+
+       
+    }
+
